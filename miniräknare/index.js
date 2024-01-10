@@ -17,20 +17,43 @@
  * 5. Skriv ut summan
  */
 
-function add() {
+function add(firstNumber, secondNumber) {
+    let sum = firstNumber + secondNumber;
+    return sum;
 }
 
-function subtract() {
+function subtract(firstNumber, secondNumber) {
+    return firstNumber - secondNumber;
 }
 
-function divide() {
+function divide(firstNumber, secondNumber) {
+    return firstNumber / secondNumber;
 }
 
-function mulitply() {
+function multiply(firstNumber, secondNumber) {
+    return firstNumber * secondNumber;
 }
 
 function calculate(firstNumber, secondNumber, operation) {
-    
+    if(typeof firstNumber !== 'number' || typeof secondNumber !== 'number') {
+        console.log('BajjaAjja');
+    } else {
+        if(operation === '+') {
+            let answer = add(firstNumber, secondNumber);
+            console.log(answer);
+        } else if(operation === '-') {
+            let answer = subtract(firstNumber, secondNumber);
+            console.log(answer);
+        } else if(operation === '/') {
+            let answer = divide(firstNumber, secondNumber);
+            console.log(answer);
+        } else if (operation === '*') {
+            let answer = multiply(firstNumber, secondNumber);
+            console.log(answer);
+        } else {
+            console.log('Felaktig input');
+        }
+    }
 }
 
 calculate(5, 10, '+');
@@ -39,3 +62,15 @@ calculate(5, 10, '/');
 calculate(5, 10, '*');
 calculate('hej', 10);
 calculate(10, 'Hej');
+
+// getInput();
+// function getInput() {
+//     let one = parseInt(window.prompt('Ange ett tal'));
+//     let two = parseInt(window.prompt('Ange ett tal till'));
+//     let operation = window.prompt('Ange ett räknesätt');
+
+//     console.log(one);
+//     console.log(two);
+//     console.log(operation);
+//     calculate(one, two, operation);
+// }
