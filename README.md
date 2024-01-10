@@ -11,7 +11,7 @@ Anropa funktion och console.log svaret. Tips! Du kan skriva `.length` på en var
   Skriv en funktion som tar tre parametrar. De första två är två tal och den sista är en operator d.v.s antingen '+', '-', '/', '*'. 
   Utför beräkningen och returnera summan och skriv ut. Det ska enbart gå att skicka med siffror (förutom operanden som är en sträng då) och varje operation ska vara sin egen funktion.
   Tips! Här kan `typeof` vara bra att använda https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/typeof
-  
+  Grunden till denna övninga, samt intruktioner finner du i mappen miniräknare.
 
 ## Övning 4
 Gör om ditt sten, sax och påse - spel så du använder funktioner och försöker återanvända kod.
