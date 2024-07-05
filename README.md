@@ -16,11 +16,3 @@ Anropa funktion och console.log svaret. Tips! Du kan skriva `.length` på en var
 ## Övning 4
 Gör om ditt sten, sax och påse - spel så du använder funktioner och försöker återanvända kod.
 
-## Övning 5
-**Parprogrammera gärna denna med en klasskompis!**
-I denna övning ska du få göra ett choose your own adventure baserat på Guldlock och de tre björnarna. Berättelsen kan du hitta [här](http://www.dltk-teach.com/rhymes/goldilocks_story.htm) som du kan kopiera ifrån.
-
-Förslag på en sagolik font https://fonts.google.com/specimen/Indie+Flower att använda.
-
-Börja med att analysera berättelsen och bryta ner den i mindre delar.
-Skapa sedan steg-för-steg instruktioner att koda efter.
